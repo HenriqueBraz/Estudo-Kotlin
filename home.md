@@ -1,5 +1,5 @@
-| [Home](home) | [Horários Time Dev](Horarios dev team) |
-| --- | --- |
+| [Home](home) | [Horários Time Dev](Horarios dev team) | [Design](Design) |
+| --- | --- | --- |
 
 # Projeto Gás Na Porta
 
