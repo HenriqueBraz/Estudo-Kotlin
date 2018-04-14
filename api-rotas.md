@@ -39,3 +39,18 @@ retorna
             user: user
         });
 ````
+
+
+
+
+#PADRÕES DE RETORNO
+````
+SUCESSO
+   -> STATUS 200
+   -> NÂO CASO ESPECIFICADO SUCESSO RETORNA {} OBJETO VAZIO
+
+ERROS / INSUCESSOS
+
+   -> STATUS 500 erro interno do servidor
+   -> STATUS 404 ROTA NAO ENCONTRADA
+````
