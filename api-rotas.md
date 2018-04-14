@@ -1,8 +1,9 @@
-### SUPPLIER
-GET /supplier/all
+# SUPPLIER
+### GET /supplier/all
 retorna json com todos os fornecedores
 
-POST /supplier/
+### POST /supplier/
+Adiciona supplier
 ````javascript
 {
     name: {type: String, required: true},
@@ -10,8 +11,9 @@ POST /supplier/
 }
 ````
 
-### USER
-POST /user/
+# USER
+### POST /user/
+Adiciona user
 ````javascript
 {
     name: {type: String, required: true},
@@ -20,8 +22,9 @@ POST /user/
 }
 ````
 
-### LOGIN
-POST /login/
+# LOGIN
+### POST /login/
+Efetua login
 ````javascript
 {
     email: {type: String, required: true }, 
