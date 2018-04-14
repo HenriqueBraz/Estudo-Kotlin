@@ -10,7 +10,7 @@ POST /supplier/
 }
 ````
 
-
+### USER
 POST /user/
 ````javascript
 {
@@ -20,6 +20,7 @@ POST /user/
 }
 ````
 
+### LOGIN
 POST /login/
 ````javascript
 {
@@ -27,4 +28,11 @@ POST /login/
     password: {type: String, required: true }
 }
 ````
-
+retorna
+````javascript
+        return res.json({
+            success: true,
+            token: token,
+            user: user
+        });
+````
