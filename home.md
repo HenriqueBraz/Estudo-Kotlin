@@ -3,5 +3,5 @@
 
 # Projeto Gás Na Porta
 
-*  [API DOC](http://www.tools.ages.pucrs.br/projetos/gasNaPorta/wikis/api)
-*  [API ROTAS](http://www.tools.ages.pucrs.br/projetos/gasNaPorta/wikis/api)
+| [API DOC](http://www.tools.ages.pucrs.br/projetos/gasNaPorta/wikis/api) | [API ROTAS](http://www.tools.ages.pucrs.br/GasNaPorta/wiki/wikis/api-rotas) |
+| --- | --- | --- |
