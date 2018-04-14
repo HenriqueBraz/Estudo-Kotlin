@@ -1,5 +1,6 @@
 ### SUPPLIER
 GET /supplier/all
+retorna json com todos os fornecedores
 
 POST /supplier/
 ````javascript
@@ -19,5 +20,11 @@ POST /user/
 }
 ````
 
-
+POST /login/
+````javascript
+{
+    email: {type: String, required: true }, 
+    password: {type: String, required: true }
+}
+````
 
