@@ -13,8 +13,11 @@ totalmente online, sem depender de uma IDE
 
 
 fun main(args: Array<String>){
+
   println ("Olá mundo!");
 }
+
+A linha abaixo:
 
 
 fun main(args: Array<String>){
@@ -22,7 +25,7 @@ fun main(args: Array<String>){
 
 } 
 
-equivale ao main do java:
+Equivale ao main do java:
 
 public static void main(String[] args) {
 
