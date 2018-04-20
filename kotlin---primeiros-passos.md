@@ -140,9 +140,9 @@ Em Java :
 
 ```
 
-public static String ExibirMenssagem (String nome){
+public static String exibirMenssagem (String nome){
 
-     System.out.println("Atenção, alerta de discos voadores, "+ nome");
+     System.out.println("Atenção, alerta de discos voadores, "+ nome);
 
 }
 
