@@ -124,7 +124,7 @@ variável. Segue o exemplo abaixo:
 ```
 fun exibirMenssagem(nome: String){
 
-println ("Atenção, alerta de discos voadores, $nome");
+     println ("Atenção, alerta de discos voadores, $nome");
 
 //em Java ficaria:
 
@@ -135,7 +135,7 @@ println ("Atenção, alerta de discos voadores, $nome");
 
 fun main (args: Array<String>){
 
-    exibirMenssagem("Zé"); // chamando a variável
+     exibirMenssagem("Zé"); // chamando a variável
 
 
 }
