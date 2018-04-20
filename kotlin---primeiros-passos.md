@@ -12,8 +12,7 @@ totalmente online, sem depender de uma IDE
 "Olá mundo" em Kotlin:
 
 
-fun main(args: Array<String>)
-{
+fun main(args: Array<String>){
 
   println ("Olá mundo!");
 
@@ -27,13 +26,14 @@ fun main(args: Array<String>){
 
 } 
 
+
 Equivale ao main do java:
 
 public static void main(String[] args) {
 
-
-
 }
+
+
 
 O uso do  semicolon é opcional em kotlin; estou mantendo aqui apenas por uma
 questão de hábito.    
