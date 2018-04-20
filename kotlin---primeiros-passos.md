@@ -1,13 +1,13 @@
 
 Curso Kotlin online gratuito:
 
-* https://www.youtube.com/watch?v=5BSSq921XNo&index=1&list=PLmcyA-BbqsvJnOZoGNHPMF1dCBq0m6Qzg
+*https://www.youtube.com/watch?v=5BSSq921XNo&index=1&list=PLmcyA-BbqsvJnOZoGNHPMF1dCBq0m6Qzg
 
 Site muito bom, com ele é possível aprender e salvar projetos em Kotlin
 
 totalmente online, sem depender de uma IDE
 
-* https://try.kotlinlang.org
+*https://try.kotlinlang.org
 
 "Olá mundo" em Kotlin:
 
