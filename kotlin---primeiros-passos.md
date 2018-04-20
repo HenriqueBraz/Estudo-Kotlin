@@ -21,19 +21,23 @@ fun main(args: Array<String>){
 
 A linha abaixo:
 
-
+```
 fun main(args: Array<String>){
 
+>>código
 
 } 
-
+```
 
 Equivale ao main do java:
 
+```
 public static void main(String[] args) {
 
-}
+>>código
 
+}
+```
 
 
 O uso do  semicolon é opcional em kotlin; estou mantendo aqui apenas por uma
