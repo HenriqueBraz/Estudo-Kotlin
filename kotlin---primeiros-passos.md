@@ -12,9 +12,7 @@ totalmente online, sem depender de uma IDE
 "Olá mundo" em Kotlin:
 
 fun main(args: Array<String>){
-
-    println ("Olá mundo!");
-
+  println ("Olá mundo!");
 }
 
 fun main(args: Array<String>){
