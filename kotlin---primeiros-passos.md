@@ -23,9 +23,9 @@ A linha abaixo:
 
 ```
 fun main(args: Array<String>){
->>>
-//  código
->>>
+
+  código
+
 } 
 ```
 
@@ -33,9 +33,9 @@ Equivale ao main do java:
 
 ```
 public static void main(String[] args) {
->>>
+
   código
->>>
+
 
 }
 ```
@@ -54,7 +54,7 @@ que é um double. Também há o tipo de variável imutavel, que declaramos como 
 e a mutável, que declaramos como var.
 Segue os exemplos abaixo:
 
-
+```
 fun main(args: Array<String>){
 
     var usuario = "Zé Ruela"; //variavel mutavel
@@ -86,6 +86,7 @@ fun main(args: Array<String>){
     println(numero3);
 
 } 
+```
 
 
 Arrays em Kotlin:
@@ -98,7 +99,7 @@ inclusive misturar os tipos de dados que queremos guardar no mesmo array.
 Segue o exemplo abaixo:
 
 
-
+```
 fun main(args: Array<String>){
 
     var nomes = arrayOf ("Zé", "Ruela", "Silva");
@@ -108,6 +109,8 @@ fun main(args: Array<String>){
     println (tudoJuntoReunido[2]);
 
 }
+```
+
 
 Funções em Kotlin:
 
@@ -118,7 +121,7 @@ Em Java, teríamos que fechar as aspas e colocar o símbolo de + antes da
 variável. Segue o exemplo abaixo:
 
 
-
+```
 fun exibirMenssagem(nome: String){
 
 println ("Atenção, alerta de discos voadores, $nome");
@@ -136,3 +139,4 @@ fun main (args: Array<String>){
 
 
 }
+```
