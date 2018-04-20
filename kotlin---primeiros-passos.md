@@ -126,10 +126,6 @@ fun exibirMenssagem(nome: String){
 
      println ("Atenção, alerta de discos voadores, $nome");
 
-//em Java ficaria:
-
-//System.out.println ("Atenção, alerta de discos voadores," + nome);
-
 }
 
 
@@ -137,6 +133,25 @@ fun main (args: Array<String>){
 
      exibirMenssagem("Zé"); // chamando a variável
 
-
 }
 ```
+
+Em Java :
+
+```
+
+public static String ExibirMenssagem (String nome){
+
+     System.out.println("Atenção, alerta de discos voadores, "+ nome");
+
+}
+
+public static void main(String args){
+
+
+     exibirMenssagem("Zé"); // chamando a variável
+
+}
+
+```
+
