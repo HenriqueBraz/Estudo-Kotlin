@@ -23,9 +23,9 @@ A linha abaixo:
 
 ```
 fun main(args: Array<String>){
-
->>código
-
+>>>
+  código
+>>>
 } 
 ```
 
@@ -33,8 +33,9 @@ Equivale ao main do java:
 
 ```
 public static void main(String[] args) {
-
->>código
+>>>
+  código
+>>>
 
 }
 ```
