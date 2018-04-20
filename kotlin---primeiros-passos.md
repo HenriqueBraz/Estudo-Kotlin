@@ -24,7 +24,7 @@ A linha abaixo:
 ```
 fun main(args: Array<String>){
 >>>
-  código
+>  código
 >>>
 } 
 ```
