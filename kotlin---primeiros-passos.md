@@ -139,7 +139,6 @@ fun main (args: Array<String>){
 Em Java :
 
 ```
-
 public static String exibirMenssagem (String nome){
 
      System.out.println("Atenção, alerta de discos voadores, " + nome);
@@ -152,6 +151,5 @@ public static void main(String[] args){
      exibirMenssagem("Zé"); // chamando a variável
 
 }
-
 ```
 
