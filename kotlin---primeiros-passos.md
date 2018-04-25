@@ -229,3 +229,42 @@ fun main(args: Array<String>){
       
 }
 ```
+Existe uma maneira mais simples e rápida de inicializar um construtor em Kotlin. Basta passar os parâmetros direto no nome da classe, como se fosse em Java uma classe de métodos em vez de instância. Vejamos a mesma classe inicializada de uma forma mais direta:
+
+```
+class Casa ( var cor: String, var vagasGaragem: Int ){
+    
+
+      
+    //Métodos
+   
+   fun detalhesCasa(){
+       
+   	   println("A casa tem a cor $cor, e $vagasGaragem vaga(s) ");	   
+        
+   }
+    
+   fun abrirJanela(){
+       
+       println ("Janela Aberta");
+       
+   }    
+       
+   fun abrirPorta(){
+       
+       println ("Porta Aberta");    
+       
+   } 
+       
+    fun abrirCasa(){
+       
+       this.abrirJanela();
+       this.abrirPorta();   
+       
+   	}    
+    
+}
+
+
+
+
