@@ -337,7 +337,7 @@ class Casa ( var cor: String, var vagasGaragem: Int ){
     
 }
 ```
-Aqui o construtor secundário está comentado entre /* e */ , pois tratam-se dos mesmos parãmetros de inicilização
+Aqui o construtor secundário está comentado entre /* e */ , pois tratam-se dos mesmos parãmetros de inicialização
 
 
 
