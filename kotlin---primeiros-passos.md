@@ -158,15 +158,12 @@ Classes de estância em Kotlin
 Em Kotlin, podemos criar classes de estãncia que servirão para referenciar objetos
 de forma mais rápida (e mais clara) do que em Java. Vamos criar uma classe chamada "Casa",
 onde terão como atributos apenas a variáveil String "cor" e a variável inteira vagasgaragem.
-Faremos também os métodos "abrirJanelas", "abrirPorta ", "abrirCasa"(que abre a porta e as janelas)
+Faremos também os métodos "abrirJanela", "abrirPorta ", "abrirCasa"(que abre a porta e a janela)
 e por último "detalhesCasa", que retorna a cor a o número de vagas na garagem.
 
 Em Kotlin:
 
 ```
-
-
-//construtor primario
 class Casa {
     
     
@@ -222,3 +219,17 @@ class Casa {
    	}    
     
 }
+```
+Como podemos ver, essa sintaxe é muito parecida com o Java. Vejamos um objeto casa chamando alguns métodos desta classe:
+
+```
+fun main(args: Array<String>){
+    
+    
+    val casa = Casa("Vermelha", 20);
+ 
+    casa.abrirCasa();
+    casa.detalhesCasa();
+      
+}
+```
