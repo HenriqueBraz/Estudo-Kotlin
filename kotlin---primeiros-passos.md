@@ -272,7 +272,7 @@ fun main(args: Array<String>){
        
 }
 ```
-Como podemos ver, desta forma é muito mais rápido codar em Kotlin. Mas nada impede de usarmos os dois tipos de construtores
+Como podemos ver, desta forma é mais rápido para codar. Mas nada impede de usarmos os dois tipos de construtores
 juntos; desta forma teremos um construtor chamado primario para o tipo acima e chamado secundário para o do tipo semelhante ao java:
 
 ```
@@ -339,7 +339,7 @@ Aqui o construtor secundário está comentado entre /* e */ , pois tratam-se dos
 
 Herança
 
-Em Kotlin, temos o mesmo conceito de herança do Java e das as demais linguagens de programação; porém em vez de escrevermos ClasseFilha1 extends ClassePai (Java) em Kotlin escrevemos somente ClasseFilha1 : ClassePai. Observe o exemplo abaixo:
+Em Kotlin, temos o mesmo conceito de herança que as demais linguagens de programação; porém em vez de escrevermos ClasseFilha1 extends ClassePai (Java) em Kotlin escrevemos somente ClasseFilha1 : ClassePai. Observe o exemplo abaixo:
 
 
 
