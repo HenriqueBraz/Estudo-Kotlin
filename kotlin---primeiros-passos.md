@@ -152,12 +152,11 @@ public static void main(String[] args){
 
 }
 ```
-Classes de estância em Kotlin
+Classes de instância em Kotlin
 
-
-Em Kotlin, podemos criar classes de estãncia que servirão para referenciar objetos
+Em Kotlin, podemos criar classes de instância que servirão para referenciar objetos
 de forma mais rápida (e mais clara) do que em Java. Vamos criar uma classe chamada "Casa",
-onde terão como atributos apenas a variáveil String "cor" e a variável inteira vagasgaragem.
+onde terão como atributos apenas a variável String "cor" e a variável inteira vagasGaragem.
  Faremos também os métodos "abrirJanela", "abrirPorta ", "abrirCasa"(que abre a porta e a janela)
 e por último "detalhesCasa", que retorna a cor a o número de vagas na garagem.
 
