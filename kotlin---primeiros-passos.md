@@ -339,7 +339,7 @@ Aqui o construtor secundário está comentado entre /* e */ , pois tratam-se dos
 
 Herança
 
-Em Kotlin, temos o mesmo conceito de herança do Java e as demais linguagens de programação; porém em vez de escrevermos ClasseFilha1 extends ClassePai (Java) em Kotlin escrevemos somente ClasseFilha1 : ClassePai. Observe o exemplo abaixo:
+Em Kotlin, temos o mesmo conceito de herança do Java e das as demais linguagens de programação; porém em vez de escrevermos ClasseFilha1 extends ClassePai (Java) em Kotlin escrevemos somente ClasseFilha1 : ClassePai. Observe o exemplo abaixo:
 
 
 
