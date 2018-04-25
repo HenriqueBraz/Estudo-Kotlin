@@ -337,6 +337,9 @@ class Casa ( var cor: String, var vagasGaragem: Int ){
 ```
 Aqui o construtor secundário está comentado entre /* e */ , pois tratam-se dos mesmos parãmetros de inicialização
 
+Herança
+
+Em Kotlin, temos o mesmo conceito de herança do Java e as demais linguagens de programação; porém em vez de escrevermos ClasseFilha1 extends ClassePai (Java) em Kotlin escrevemos somente ClasseFilha1 : ClassePai. Observe o exemplo abaixo:
 
 
 
