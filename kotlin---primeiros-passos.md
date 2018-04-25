@@ -48,8 +48,8 @@ Variáveis em Kotlin:
 Em Kotlin, temos basicamente o mesmo tipo de variávis que utilizamos em Java 
 (Int, Double, Float, etc); porém não é necessário declarar, a menos que se queira e  diferente do Java devemos escrever o tipo da variável sempre com a primeira letra maíuscula.
 Se não é declarado uma variável numérica, o Kotlin assume automaticamente 
-que é um double. Também há o tipo de variável imutavel, que declaramos como val 
-e a mutável, que declaramos como var.
+que é um double. Também há o tipo de variável imutavel, que declaramos como var 
+e a mutável, que declaramos como val.
 Segue os exemplos abaixo:
 
 ```
