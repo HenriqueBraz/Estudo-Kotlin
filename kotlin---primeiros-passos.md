@@ -263,6 +263,84 @@ class Casa ( var cor: String, var vagasGaragem: Int ){
     
 }
 ```
+A inicialização continua a mesma:
+
+```
+fun main(args: Array<String>){
+    
+    val casa = Casa("Vermelha", 20);
+ 
+    casa.abrirCasa();
+    casa.detalhesCasa();
+       
+}
+```
+Como podemos ver, desta forma é muito mais rápido codar em Kotlin. Mas nada impede de usarmos os dois tipos de construtores
+juntos; desta forma teremos um construtor chamado primario para o tipo acima e chamado secundário para o do tipo semelhante ao java:
+
+```
+
+//construtor primario
+class Casa ( var cor: String, var vagasGaragem: Int ){
+    
+  /* 
+   // Propiedades 
+   var cor: String
+   var vagasGaragem: Int
+
+
+    
+    //construtor secundario
+    constructor (cor: String, vagasGaragem: Int ){
+        
+        this.cor = cor;
+        this.vagasGaragem = vagasGaragem;
+        
+    }
+  
+    init{ 
+        
+       this.cor = cor;
+       this.vagasGaragem = vagasGaragem;
+               
+    }
+    
+   */
+
+
+      
+    //Métodos
+    //
+   fun detalhesCasa(){
+       
+   	   println("A casa tem a cor $cor, e $vagasGaragem vaga(s) ");	   
+        
+   }
+    
+   fun abrirJanela(){
+       
+       println ("Janela Aberta");
+       
+   }    
+       
+   fun abrirPorta(){
+       
+       println ("Porta Aberta");    
+       
+   } 
+       
+    fun abrirCasa(){
+       
+       this.abrirJanela();
+       this.abrirPorta();   
+       
+   	}    
+    
+}
+```
+Aqui o construtor secundário está comentado entre /* e */ , pois tratam-se dos mesmos parãmetros de inicilização
+
+
 
 
 
