@@ -233,14 +233,12 @@ Existe uma maneira mais simples e rápida de inicializar um construtor em Kotlin
 
 ```
 class Casa ( var cor: String, var vagasGaragem: Int ){
-    
-
-      
-    //Métodos
+          
+   //Métodos
    
    fun detalhesCasa(){
        
-   	   println("A casa tem a cor $cor, e $vagasGaragem vaga(s) ");	   
+       println("A casa tem a cor $cor, e $vagasGaragem vaga(s) ");	   
         
    }
     
@@ -264,7 +262,7 @@ class Casa ( var cor: String, var vagasGaragem: Int ){
    	}    
     
 }
-
+```
 
 
 
