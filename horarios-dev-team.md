@@ -1,5 +1,5 @@
-| [Home](home) | [Time de desenvolvimento](Horarios dev team) |
-| --- | --- |
+| [Home](home) | [**Time de Desenvolvimento**](Horarios dev team) | [Design](Design) |
+| --- | --- | --- |
 
 # Sobre o time
 ## Distribuição Módulos AGES
