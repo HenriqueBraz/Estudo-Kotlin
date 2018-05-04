@@ -109,6 +109,23 @@ fun main(args: Array<String>){
 }
 ```
 
+Em Java:
+
+
+```
+public static void main(String[] args) {
+
+  String[] nomes = new String [] {"Zé", "Ruela", "Silva"}; // Para um Array de Strings
+  
+  //ou
+  
+  int[] numeros = new int [] {1,2,3,4,5}; // Para um Array de números inteiros
+
+
+}
+
+```
+
 
 Funções em Kotlin:
 
